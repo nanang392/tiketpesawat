@@ -1,11 +1,6 @@
-# ✈️ AeroTicket - Sistem Pemesanan Tiket Pesawat
+# ✈️ Pendaftaran Rute Penerbangan
 
-Aplikasi web sederhana untuk memesan dan mengelola tiket pesawat dengan fitur CRUD (Create, Read, Update, Delete) menggunakan PHP Native dan MySQL.
-
-## 🎨 Tema Warna
-- Biru Tua: `#1A237E`
-- Biru Muda: `#42A5F5`
-- Putih: `#FFFFFF`
+Aplikasi web sederhana untuk mengelola tiket pesawat dengan fitur CRUD (Create, Read, Update, Delete) menggunakan PHP Native dan MySQL.
 
 ## ✨ Fitur Utama
 
@@ -46,4 +41,11 @@ Aplikasi web sederhana untuk memesan dan mengelola tiket pesawat dengan fitur CR
 | bandara | VARCHAR(100) | Nama bandara |
 | pajak | INT(11) | Biaya pajak kedatangan |
 
-## 📁 Struktur File
+## 💻 Persyaratan Sistem
+
+| Komponen | Minimal |
+|----------|---------|
+| **Web Server** | Apache (XAMPP / Laragon / WAMP) |
+| **PHP** | Versi 7.4 atau lebih tinggi |
+| **MySQL** | Versi 5.7 atau lebih tinggi |
+| **Browser** | Chrome, Firefox, Edge, Opera (modern) |
