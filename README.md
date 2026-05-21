@@ -49,3 +49,21 @@ Aplikasi web sederhana untuk mengelola tiket pesawat dengan fitur CRUD (Create, 
 | **PHP** | Versi 7.4 atau lebih tinggi |
 | **MySQL** | Versi 5.7 atau lebih tinggi |
 | **Browser** | Chrome, Firefox, Edge, Opera (modern) |
+
+##📝 Data Pajak Bandara
+Pajak Keberangkatan (Asal)
+Bandara	Kode	Pajak
+Soekarno-Hatta	CGK	Rp 50.000
+Husein Sastranegara	BDO	Rp 30.000
+Abdul Rachman Saleh	MLG	Rp 40.000
+Juanda	SUB	Rp 40.000
+Kualanamu	KNO	Rp 45.000
+Sultan Hasanuddin	UPG	Rp 60.000
+Pajak Kedatangan (Tujuan)
+Bandara	Kode	Pajak
+Ngurah Rai	DPS	Rp 80.000
+Hasanuddin	UPG	Rp 70.000
+Inanwatan	INX	Rp 90.000
+Sultan Iskandarmuda	BTJ	Rp 70.000
+Juanda	SUB	Rp 65.000
+Soekarno-Hatta	CGK	Rp 75.000
