@@ -1,0 +1,423 @@
+/* style.css - Untuk AeroTicket */
+/* Warna: Biru Tua (#1A237E), Biru Muda (#42A5F5), Putih (#FFFFFF) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+    color: #1A237E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+/* Container */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Header Utama */
+.main-header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.main-header i {
+    font-size: 50px;
+    color: #42A5F5;
+}
+
+.main-header h1 {
+    color: #1A237E;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.main-header p {
+    color: #64B5F6;
+    font-size: 1rem;
+}
+
+/* Card */
+.card {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(26, 35, 126, 0.15);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #1A237E 0%, #283593 100%);
+    color: white;
+    border-radius: 16px 16px 0 0 !important;
+    padding: 15px 22px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.card-header i {
+    margin-right: 10px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+/* Form Label */
+.form-label {
+    color: #1A237E;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.form-label i {
+    color: #42A5F5;
+    margin-right: 5px;
+}
+
+/* Form Control */
+.form-control,
+.form-select {
+    background-color: #FFFFFF;
+    border: 1.5px solid #90CAF9;
+    color: #1A237E;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: all 0.3s;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #42A5F5;
+    color: #1A237E;
+    box-shadow: 0 0 0 0.2rem rgba(66, 165, 245, 0.25);
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: #B0BEC5;
+}
+
+/* Button */
+.btn {
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #42A5F5 0%, #1E88E5 100%);
+    border: none;
+    color: white;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%);
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(66, 165, 245, 0.4);
+}
+
+.btn-secondary {
+    background-color: #90CAF9;
+    border: none;
+    color: #1A237E;
+}
+
+.btn-secondary:hover {
+    background-color: #64B5F6;
+    transform: scale(1.02);
+    color: white;
+}
+
+.btn-warning {
+    background-color: #FFA726;
+    border: none;
+    color: #FFF;
+}
+
+.btn-warning:hover {
+    background-color: #FB8C00;
+    transform: scale(1.02);
+    color: #FFF;
+}
+
+.btn-danger {
+    background-color: #EF5350;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #E53935;
+    transform: scale(1.02);
+}
+
+.btn-outline-danger {
+    border: 1.5px solid #EF5350;
+    color: #EF5350;
+    background: transparent;
+}
+
+.btn-outline-danger:hover {
+    background-color: #EF5350;
+    color: white;
+    transform: scale(1.02);
+}
+
+.btn-sm {
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+/* Tabel */
+.table {
+    color: #1A237E;
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background: linear-gradient(135deg, #1A237E 0%, #283593 100%);
+    color: white;
+    border-bottom: none;
+    padding: 14px 12px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #E3F2FD;
+    transition: background-color 0.3s;
+}
+
+.table tbody tr:hover {
+    background-color: #F5F9FF;
+}
+
+.table tbody td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* Action Buttons dalam tabel */
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Informasi Pajak Card */
+.info-card {
+    background: linear-gradient(135deg, #FFFFFF 0%, #F8FBFF 100%);
+    border: 1px solid #BBDEFB;
+}
+
+.info-card h6 {
+    color: #1A237E;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.info-card h6 i {
+    color: #42A5F5;
+    margin-right: 5px;
+}
+
+.info-card .table {
+    margin-bottom: 0;
+}
+
+.info-card .table td {
+    padding: 6px 0;
+    border: none;
+    font-size: 0.85rem;
+}
+
+/* Alert */
+.alert {
+    border-radius: 10px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.alert-info {
+    background-color: #E3F2FD;
+    color: #1565C0;
+    border-left: 4px solid #42A5F5;
+}
+
+.alert-info i {
+    margin-right: 5px;
+}
+
+/* Badge (tidak digunakan di kode, tapi disediakan) */
+.badge-primary {
+    background: linear-gradient(135deg, #1A237E 0%, #283593 100%);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+/* Responsive untuk mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .main-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .main-header i {
+        font-size: 40px;
+    }
+    
+    .card-header {
+        padding: 12px 18px;
+        font-size: 1rem;
+    }
+    
+    .card-body {
+        padding: 18px;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .table {
+        font-size: 12px;
+    }
+    
+    .btn-sm {
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+    
+    .info-card .col-6 {
+        margin-bottom: 15px;
+    }
+}
+
+/* Responsive untuk tablet */
+@media (max-width: 992px) and (min-width: 769px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    .table {
+        font-size: 13px;
+    }
+}
+
+/* Animasi fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Scrollbar kustom */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #E3F2FD;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #42A5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1A237E;
+}
+
+/* Table responsive wrapper */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Hover effect untuk baris tabel */
+.table-hover tbody tr:hover {
+    background-color: #F0F7FF;
+}
+
+/* Style untuk placeholder text */
+::-webkit-input-placeholder {
+    color: #B0BEC5;
+}
+
+:-moz-placeholder {
+    color: #B0BEC5;
+}
+
+::-moz-placeholder {
+    color: #B0BEC5;
+}
+
+:-ms-input-placeholder {
+    color: #B0BEC5;
+}
+
+/* Focus visible untuk aksesibilitas */
+:focus-visible {
+    outline: 2px solid #42A5F5;
+    outline-offset: 2px;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Style untuk icon di tabel */
+.table tbody td i.fa-plane {
+    margin-right: 5px;
+}
+
+/* Style untuk card header float-end */
+.card-header .float-end {
+    float: right;
+}
+
+/* Clearfix untuk float */
+.card-header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
