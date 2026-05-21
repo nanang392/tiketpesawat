@@ -68,7 +68,7 @@ mysqli_data_seek($result_pajak_tujuan, 0);
 <div class="container mt-4">
     <!-- Header -->
     <div class="main-header">
-        <img src="gambar/pswt.png" alt="Icon Pesawat" width="200" class="me-2">
+        <img src="gambar/pswt.png" alt="Icon Pesawat" width="200" class="me-2 pesawat-float">
         <h1>Pendaftaran Rute Penerbangan</h1>
     </div>
 
@@ -297,5 +297,6 @@ mysqli_data_seek($result_pajak_tujuan, 0);
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
